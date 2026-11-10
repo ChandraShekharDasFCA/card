@@ -230,16 +230,16 @@
             </button>
 
             <div class="text-center">
-                <h3 class="text-lg font-bold text-slate-900">Digital Business Card</h3>
-                <p class="text-xs text-slate-500 mt-1">Scan QR code or share the link</p>
-
-                <!-- Target Printable Card Area for PNG Download -->
+                <!-- Target Printable Card Area for PNG Download with Headings -->
                 <div id="qrPrintArea" class="p-4 bg-white rounded-2xl">
-                    <p class="text-xs font-semibold text-slate-700 mt-3">Digital Vcard</p>
-                    <div class="my-2 flex justify-center">
+                    <h3 class="text-lg font-bold text-slate-900">Digital Business Card</h3>
+                    <p class="text-xs text-slate-500 mt-0.5">Scan QR code or share the link</p>
+
+                    <div class="my-3 flex justify-center">
                         <div id="qrcode" class="p-3 bg-white border border-slate-200 rounded-2xl shadow-sm"></div>
                     </div>
-                    <p class="text-xs font-semibold text-slate-700 mt-3">Chandra Shekhar Das, FCA</p>
+
+                    <p class="text-xs font-semibold text-slate-700 mt-2">Chandra Shekhar Das, FCA</p>
                     <p class="text-[10px] text-slate-500 font-medium">Pragati Life Insurance PLC.</p>
                 </div>
 
@@ -343,7 +343,7 @@
             }
         }
 
-        // Instant Download QR Code Card as PNG Image
+        // Instant Download QR Code Card as PNG Image with Headings
         function downloadQRCodeImage() {
             const target = document.getElementById('qrPrintArea');
 
@@ -388,7 +388,7 @@ TEL;TYPE=CELL:+8801917700842
 TEL;TYPE=WORK,VOICE:+88028189184
 TEL;TYPE=FAX:+88029124024
 EMAIL;TYPE=WORK:chandrashekhar_cfo@pragatilife.com
-URL:http://pragatilife.com
+URL:http://www.pragatilife.com
 ADR;TYPE=WORK:;;Pragati Insurance Bhaban (Level-6), 20-21 Kawran Bazar;Dhaka;;1215;Bangladesh
 NOTE:TRUST US FOR LIFE
 END:VCARD`;
